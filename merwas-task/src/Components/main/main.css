@@ -1,0 +1,8 @@
+.second{
+    background-color: white;
+    border: solid 2px black;
+    font-size: large;
+}
+.search{
+    max-width: 30%;
+}

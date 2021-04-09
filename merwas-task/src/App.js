@@ -1,13 +1,13 @@
 import React from 'react'
+import Navbar from './Components/Navbar/Navbar';
+import Main from './Components/main/Main';
 import './App.css';
 
-function App() {
+const App=()=> {
   return (
     <div className="App">
-      <h1>Electrical Engineering</h1>
-      <h2>Full-stack Developer</h2>
-      <div>Mutah university</div>
-     
+      <Navbar/>
+      <Main/>
     </div>
   );
 }
