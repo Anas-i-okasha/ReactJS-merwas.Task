@@ -51,7 +51,7 @@ const Auckland=()=> {
     return (
         <div>
             <div className='land'>
-                <h3>Featured Auckland deals</h3> <button style={{marginLeft:'15px'}} className='btn btn-primary '>View More</button>
+                <h3 style={{marginLeft:'15px'}}>Featured Auckland deals</h3> <button style={{marginLeft:'15px'}} className='btn btn-primary '>View More</button>
             </div>
             <div className='Auck' >
                 {LandData.map(function(item){ 

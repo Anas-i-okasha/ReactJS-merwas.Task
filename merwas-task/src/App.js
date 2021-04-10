@@ -4,7 +4,8 @@ import Main from './Components/main/Main';
 import Image from './Components/image/image';
 import Sidebar from './Components/SideBar/Side';
 import PartTwo from './Components/PartTwo/partTwo';
-import Auckland from './Components/Auckland/Auckland'
+import Auckland from './Components/Auckland/Auckland';
+import Collection from './Components/Collection/collection'
 import './App.css';
 
 const App=()=> {
@@ -16,6 +17,7 @@ const App=()=> {
       <Sidebar/>
       <PartTwo/>
       <Auckland/>
+      <Collection/>
     </div>
   );
 }
