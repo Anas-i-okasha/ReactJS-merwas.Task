@@ -8,7 +8,8 @@ import Auckland from './Components/Auckland/Auckland';
 import Collection from './Components/Collection/collection';
 import Escape from './Components/Escape/Escape';
 import Store from  './Components/Store/Store';
-import Fitness from './Components/Fitness and sport/fitness'
+import Fitness from './Components/Fitness and sport/fitness';
+import Footer from './Components/footer/footer'
 import './App.css';
 
 const App=()=> {
@@ -24,6 +25,7 @@ const App=()=> {
       <Escape/>
       <Store/>
       <Fitness/>
+      <Footer/>
 
     </div>
   );
