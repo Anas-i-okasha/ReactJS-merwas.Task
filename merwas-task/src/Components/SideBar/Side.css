@@ -1,0 +1,19 @@
+.side{
+    display: flex;
+    margin: 20px;
+    border: white solid 5px;
+    border-radius: 8px;
+    background-color: white;
+    max-width: 20%;
+    height: 80vh;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 15px;
+    list-style: none;
+    margin-top: 70px;
+    margin-left: -130px;
+}
