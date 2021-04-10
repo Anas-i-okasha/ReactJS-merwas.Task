@@ -1,0 +1,15 @@
+.land{
+    display: flex;
+    padding: 25px;
+}
+.Auck{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
