@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar';
 import Main from './Components/main/Main';
+import Image from './Components/image/image'
 import './App.css';
 
 const App=()=> {
@@ -8,6 +9,7 @@ const App=()=> {
     <div className="App">
       <Navbar/>
       <Main/>
+      <Image/>
     </div>
   );
 }
