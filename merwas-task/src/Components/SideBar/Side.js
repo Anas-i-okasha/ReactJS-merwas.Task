@@ -52,7 +52,10 @@ const Side=()=> {
       <div class="card-body">
         <h5 class="card-title">Three-Day Abel Tasman self Guided Walk</h5>
         <p class="card-text">Three-Day Abel Tasman Independent Walk</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div className='more'>
+                       <div style={{marginTop:30}}> 116 bought </div>
+                       <div style={{color:'blue' , marginLeft:50}}> from <h3 > $1.095 </h3> </div> 
+                        </div>
       </div>
     </div>
   </div>
@@ -62,7 +65,10 @@ const Side=()=> {
       <div class="card-body">
         <h5 class="card-title">Thermal Hot pool Entry (14 years & over only)</h5>
         <p class="card-text">Wairakei Terraces</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div className='more'>
+                       <div style={{marginTop:30}}> 14846 bought </div>
+                       <div style={{color:'blue' , marginLeft:50}}> from <h3 > $15 </h3> </div> 
+                        </div>
       </div>
     </div>
   </div>

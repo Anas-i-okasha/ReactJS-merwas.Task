@@ -7,44 +7,60 @@ const Auckland=()=> {
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg',
             header:'Water sports experance',
-            text:'Vector wero white water'
+            text:'Vector wero white water',
+            price:'39',
+            bought:'78'
         },
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/1719b96c9ee175f185dc95a848bc4085fc4b0cba.jpg',
             header:'Luxuary stay at Heritage QueenStone ',
-            text:'Queenstone-wanka'
+            text:'Queenstone-wanka',
+            price:'165',
+            bought:'11'
         },
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/f8293dd56b36f6efe250d112ab107f84a0206479.jpg',
             header:'paradic Entry & skate hire',
-            text:'Auckland'
+            text:'Auckland',
+            price:'10',
+            bought:'439'
         },
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/b64246ad63ac0a27dd158be5653fdef3a55e3e42.jpg',
             header:'Five-star indulgent Breakfast Experience',
-            text:'Eight Resturant at cordis Auckland'
+            text:'Eight Resturant at cordis Auckland',
+            price:'34',
+            bought:'328'
         },
     ]
     const nextData = [
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/899eda9a1b4746cb67901e100eb68f73ee73a20d.jpg',
             header:'4.5 Star Capital city Getway',
-            text:'James cook Hotel Grand '
+            text:'James cook Hotel Grand ',
+            price:'149',
+            bought:'220'
         },
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/f387ea5018aa7647a3d6a1919d14264a7b6715f7.jpg',
             header:'Mid Luxury chalet stay',
             text:'Grand Mercure Puka ',
+            price:'349',
+            bought:'131'
         },
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/ced219384b3cb34122aa0250978fd2a87292f229.jpg',
             header:'white water rafting ',
             text:'Kaituna Cascades',
+            price:'85',
+            bought:'83'
         },
         {
             image:'https://main-cdn.grabone.co.nz/goimage/325x225/29ac0fda082839048b3964ccaea85501c1c9b587.jpg',
             header:'Entry to parakai',
-            text:'parakai Springs'
+            text:'parakai Springs',
+            price:'15',
+            bought:'409'
 
         }
     ]
@@ -64,8 +80,8 @@ const Auckland=()=> {
                           <p class="card-text"> {item.text} </p>
                         </div>
                         <div className='more'>
-                        <div >  bought </div>
-                        <div > price</div>
+                       <div style={{marginTop:30}}> {item.bought } bought </div>
+                       <div style={{color:'blue' , marginLeft:50}}> from <h3 > ${item.price} </h3> </div> 
                         </div>
                         
                       </div>
@@ -85,8 +101,8 @@ const Auckland=()=> {
                           <p class="card-text"> {item.text} </p>
                         </div>
                         <div className='more'>
-                        <div >  bought </div>
-                        <div > price</div>
+                       <div style={{marginTop:30}}> {item.bought } bought </div>
+                       <div style={{color:'blue' , marginLeft:50}}> from <h3 > ${item.price} </h3> </div> 
                         </div>
                       </div>
                     </div>

@@ -39,7 +39,10 @@ const collection=()=> {
                           <h5 class="card-title"> {item.header} </h5>
                           <p style={{alignItems:'center'}} class="card-text"> {item.text} </p>
                         </div>
-                       <a href='https://new.grabone.co.nz/auckland/c/sooo-long-summer?view=grid'><button style={{display:'inline-block', alignItems:'center'}} className='btn btn-primary'>View Collections</button></a> 
+                        <div style={{display:'flex', justifyContent:'center', marginBottom:5}}>
+                        <a  href='https://new.grabone.co.nz/auckland/c/sooo-long-summer?view=grid'><button  className='btn btn-primary'>View Collections</button></a> 
+
+                        </div>
                       </div>
                     </div>
                     </div>

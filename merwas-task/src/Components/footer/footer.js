@@ -13,9 +13,9 @@ const footer=()=> {
                 <nav>
                     <h4>Follow Us</h4>
                     <div style={{ display:'flex',margin:'5px' ,fontSize:'xx-large'}}>
-                     <a target href='https://web.facebook.com/GrabOne?_rdc=1&_rdr'><FaFacebook/></a>  <a href='https://twitter.com/grab_one'> <AiFillTwitterCircle/> </a>
-                     <a href='https://www.instagram.com/grabone_nz/'><IoLogoInstagram/> </a>
-                     <a href='https://www.youtube.com/channel/UCpW3s5Cp3nDegaI1JXq3YSQ'> <ImYoutube/> </a>
+                     <a target='_blank' href='https://web.facebook.com/GrabOne?_rdc=1&_rdr'><FaFacebook/></a>  <a href='https://twitter.com/grab_one'> <AiFillTwitterCircle/> </a>
+                     <a target='_blank'  href='https://www.instagram.com/grabone_nz/'><IoLogoInstagram/> </a>
+                     <a target='_blank'  href='https://www.youtube.com/channel/UCpW3s5Cp3nDegaI1JXq3YSQ'> <ImYoutube/> </a>
                     </div>
                     <div> <h6>Get app exclusive deals</h6> </div>
                     <div> <a className='btn btn-primary' href='https://new.grabone.co.nz/mobile'> <GiSmartphone/> DownLoad our App</a>   </div>
@@ -49,7 +49,10 @@ const footer=()=> {
                 </nav>
             </div>
             <div className='sub-Footer'>
-                <div style={{textAlign:'center'}}>Privacy Police @ 2021 GrabOne Limited</div>
+               <div style={{textAlign:'center'}}><a target='_blank'  href='https://new.grabone.co.nz/privacy-policy'>Privacy Police</a> @ 2021 GrabOne Limited</div>
+                <div>
+                    <img src='https://new-cdn.grabone.co.nz/static/img/icon/powered_by_nzme_long.d08e62aa63ff.png'/>
+                </div>
             </div>
         </div>
     )

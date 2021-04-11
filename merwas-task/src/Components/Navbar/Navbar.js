@@ -19,9 +19,11 @@ import {HiOutlineMail} from 'react-icons/hi';
             <li>
                 <div style={{color:'white', }}>
                 <NavDropdown title="Auckland"  id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">Auckland</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Collection</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Escapes</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Store</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Fitness & sport</NavDropdown.Item>
         </NavDropdown>
                 </div>
             </li>
@@ -36,9 +38,9 @@ import {HiOutlineMail} from 'react-icons/hi';
 </li>
         </ul>
     </div>
-        <div>          
-       <div>Powered by</div>
-         <div><h4>NZME.</h4></div>
+        <div style={{listStyle:'none'}}> <li>
+        <img  src='https://new-cdn.grabone.co.nz/static/img/icon/powered_by_nzme_short.22da364cd455.png'/></li>         
+         
         </div>
   </Navbar>
             

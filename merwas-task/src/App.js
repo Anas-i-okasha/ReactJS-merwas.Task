@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Main from './Components/main/Main';
 import Image from './Components/image/image';
@@ -9,12 +10,13 @@ import Collection from './Components/Collection/collection';
 import Escape from './Components/Escape/Escape';
 import Store from  './Components/Store/Store';
 import Fitness from './Components/Fitness and sport/fitness';
-import Footer from './Components/footer/footer'
+import Footer from './Components/footer/footer';
 import './App.css';
 
 const App=()=> {
   return (
     <div className="App">
+      <Router>
       <Navbar/>
       <Main/>
       <Image/>
@@ -26,6 +28,8 @@ const App=()=> {
       <Store/>
       <Fitness/>
       <Footer/>
+      </Router>
+   
 
     </div>
   );
